@@ -1,0 +1,39 @@
+footer .info {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 5% 30%;
+}
+
+.info>a {
+	color: #42446E;
+	font-family: "DM Sans";
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.horiz-socials-f {
+	display: flex;
+	justify-content: space-between;
+}
+
+.horiz-socials-f li {
+	padding: 0 10px
+}
+
+.horiz-menu-footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 5% 25%;
+}
+
+.horiz-menu-footer a {
+	color: #42446E;
+	font-family: "DM Sans";
+	font-size: 18px;
+	font-weight: 400;
+	padding: 0 20px;
+}

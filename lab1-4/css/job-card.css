@@ -1,0 +1,13 @@
+.job-vacancy,
+.job-info {
+	display: flex;
+	justify-content: space-between;
+	font-size: 12px;
+	padding-bottom: 15px;
+	color: #A7A7A7;
+}
+
+.job-name {
+	font-size: 20px;
+	color: #666;
+}

@@ -1,0 +1,18 @@
+.view-btn{
+	display: inline;
+	width: 30px;
+	max-width: 30px;
+	height: 30px;
+	padding: 0;
+	margin: 5px 0 60px;
+	background-color: #ffffff;
+	background-image: url("../img/svg/row.svg");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border: none;
+	border-radius: 3px;
+}
+
+.view-btn:hover{
+	background-color: #e0e0e0;
+}

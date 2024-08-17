@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Projects</title>
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<a href="" class="logo">
+				<img src="./img/svg/k105.svg" alt="">
+			</a>
+			<div class="overlay">
+				<nav class="header-menu">
+					<ul>
+						<li>
+							<a class="link" href="index.html">Home</a>
+						</li>
+						<li>
+							<a class="link" href="about.html">About</a>
+						</li>
+						<li>
+							<a class="link" href="tech_stack.html">Tech Stack</a>
+						</li>
+						<li>
+							<a class="link" href="projects.html">Projects</a>
+						</li>
+						<li>
+							<a class="link" href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<ul class="header-socials">
+				<li>
+					<a href=""><img class="icon" src="./img/svg/github_s.svg" alt=""></a>
+				</li>
+				<li>
+					<a href=""><img class="icon" src="./img/svg/twitter_s.svg" alt=""></a>
+				</li>
+				<li>
+					<a href=""><img class="icon" src="./img/svg/linkedin_s.svg" alt=""></a>
+				</li>
+			</ul>
+			<button class="nav-btn">
+				<span class="nav-btn-line"></span>
+				<span class="nav-btn-line"></span>
+				<span class="nav-btn-line"></span>
+			</button>
+		</header>
+		<main>
+			<h2>Projects</h2>
+			<p class="subtitle">Things I’ve built so far</p>
+			<form class="js-filters filters">
+				<select name="technology" class="select" id="technology-select">
+					<option value="">Technology</option>
+					<option value="react">React</option>
+					<option value="java-script">JavaScript</option>
+					<option value="html">HTML</option>
+					<option value="sass">SASS</option>
+				</select>
+				<select name="theme" class="select" id="theme-select">
+					<option value="">Theme</option>
+					<option value="landing">Landing</option>
+					<option value="ecommerce">E commerce</option>
+					<option value="blog">Blog</option>
+				</select>
+				<select name="platform" class="select" id="platform-select">
+					<option value="">Platform</option>
+					<option value="web">Web</option>
+					<option value="ios">Ios</option>
+					<option value="android">Android</option>
+				</select>
+			</form>
+			<button class="view-btn"></button>
+			<section id="projects-section" class="projects-section">
+				<div class="js-projects-container inner"></div>
+			</section>
+		</main>
+		<footer>
+			<div class="info">
+				<a href="tel:+91 12345 09876">+91 12345 09876</a>
+				<a href="mailto:info@example.com">info@example.com</a>
+				<ul class="horiz-socials-f">
+					<li>
+						<a href="">
+							<img src="./img/svg/github_b.svg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="./img/svg/twitter_b.svg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="./img/svg/linkedin_b.svg" alt="">
+						</a>
+					</li>
+				</ul>
+			</div>
+			<hr>
+			<nav>
+				<ul class="horiz-menu-footer">
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li>
+						<a href="tech_stack.html">Tech Stack</a>
+					</li>
+					<li>
+						<a href="projects.html">Projects</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</footer>
+	</div>
+	<script src="js/header.js"></script>
+	<script src="js/projects.js"></script>
+</body>
+
+</html>

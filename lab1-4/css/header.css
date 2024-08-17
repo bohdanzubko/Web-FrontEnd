@@ -1,0 +1,135 @@
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.header-menu ul {
+	display: flex;
+	align-items: center;
+}
+
+.header-menu li {
+	margin-right: 60px;
+}
+
+.header-menu li:last-child {
+	margin-right: 0;
+}
+
+.header-menu li .link {
+	font-size: 20px;
+	font-weight: 500;
+	font-family: DM_Sans, sans-serif, Arial;
+}
+
+.header-socials {
+	display: flex;
+	align-items: center;
+}
+
+.header-socials li {
+	flex-shrink: 0;
+	margin-right: 20px;
+}
+
+.header-socials li:last-child {
+	margin-right: 0;
+}
+
+.header-socials li .icon {
+	width: 30px;
+	height: 30px;
+}
+
+@media screen and (min-width: 768px){
+	.nav-btn {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.header .overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		width: 100vw;
+		height: 100vh;
+		visibility: hidden;
+		background-color: rgba(0, 0, 0, 0.6);
+		opacity: 0;
+		transition: visibility 0.3s, opacity 0.3s;
+	}
+
+	.header .header-menu {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 99;
+		flex-direction: column;
+		width: 100vw;
+		padding-top: 70px;
+		background-color: white;
+		transition: transform 0.3s, opacity 0.3s, visibility 0.3s;
+		transform: translateY(-100%);
+		opacity: 0;
+	}
+
+	.header.is-active .overlay {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	.header.is-active .header-menu {
+		transform: translateY(0);
+		opacity: 1;
+	}
+
+	.nav-btn {
+		z-index: 99;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		width: 32px;
+		height: 18px;
+		padding: 0;
+		background-color: transparent;
+		border: none;
+	}
+
+	.nav-btn-line {
+		display: block;
+		width: 100%;
+		height: 2px;
+		background-color: #666;
+		border-radius: 2px;
+	}
+
+	.header .logo,
+	.header .header-socials {
+		z-index: 100;
+	}
+
+	.header .logo {
+		width: 66px;
+		height: 37px;
+	}
+
+	.header .header-menu ul {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		flex-direction: column;
+	}
+
+	.header .header-menu li {
+		margin-right: 0;
+	}
+
+	.header .header-menu li:not(:last-child) {
+		margin-bottom: 20px;
+	}
+}

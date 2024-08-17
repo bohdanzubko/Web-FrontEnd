@@ -1,0 +1,46 @@
+/*reset some standart styles*/
+@import "reset.css";
+
+/*set common styles for pages*/
+@import "common.css";
+
+/*home page style*/
+@import "header.css";
+
+@import "logo.css";
+
+@import "title.css";
+
+@import "hero-section.css";
+
+@import "home-page.css";
+
+@import "footer.css";
+
+/*about me style*/
+@import "work-exp.css";
+
+@import "job-card.css";
+
+@import "job-time.css";
+
+/*tech stack style*/
+@import "tech-stack.css";
+
+/*projects style*/
+@import "project-section.css";
+
+@import "project-card.css";
+
+@import "filters.css";
+
+@import "view-button.css";
+
+/*contacts style*/
+@import "text-input.css";
+
+@import "label.css";
+
+@import "send-button.css";
+
+@import "contact-form.css";

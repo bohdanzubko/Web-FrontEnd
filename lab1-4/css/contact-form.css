@@ -1,0 +1,44 @@
+.contact-form {
+	margin: 100px;
+}
+
+.contact-form>*:not(:last-child) {
+	margin: 26px;
+}
+
+.form-row {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.form-row>*:not(:last-child) {
+	margin-right: 26px;
+}
+
+.form-row.flex-end {
+	justify-content: flex-end;
+}
+
+.form-col {
+	flex: 1 0 0%;
+}
+
+.form-row.cols-auto .form-col {
+	flex: 0 0 auto;
+	width: auto;
+}
+
+@media screen and (max-width: 768px) {
+	.form-row{
+		flex-direction: column;
+	}
+
+	.form-row>*:not(:last-child) {
+		margin-right: 0px;
+	}
+
+	.contact-form {
+		margin: 100px 0;
+	}
+}

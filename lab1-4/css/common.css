@@ -1,0 +1,29 @@
+body {
+	font-size: 14px;
+	font-family: Poppins, sans-serif, Arial;
+	color: #666;
+	background-color: white;
+}
+
+body.disable-scroll {
+	overflow: hidden;
+}
+
+.wrapper {
+	max-width: 1260px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+h2 {
+	color: #42446E;
+	font-size: 48px;
+	font-weight: 700;
+	margin-top: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}

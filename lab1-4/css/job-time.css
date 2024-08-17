@@ -1,0 +1,11 @@
+.job-time {
+	min-width: 94px;
+	height: 24px;
+	background-color: #D7FFE0;
+	color: #018C0F;
+	font-size: 9px;
+	font-weight: 600;
+	line-height: 26px;
+	text-align: center;
+	border-radius: 100px;
+}

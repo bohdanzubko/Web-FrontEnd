@@ -1,0 +1,9 @@
+.work-exp {
+	margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+	.work-exp {
+		width: 80%;
+	}
+}
